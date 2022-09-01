@@ -82,6 +82,21 @@ li{
 .myName{
     color: white;
     margin: 5% 0 15% 0;
+    font-weight: bolder;
+}
+
+.buttonDiv{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.buttonIcon{
+    width: 10%;
+    height: 100%;
+    margin: 0 5% 0 5%;
+    filter: invert(100%);
 }
 
 button{
