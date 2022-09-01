@@ -21,7 +21,7 @@ return (
         <div className="headerDiv">
         {!section ? <h1>Home</h1> : <h1>{validateSection(section)}</h1>}
         </div>
-        <div>
+        <div className="contentNavigator">
             {section === "About" ? <h1>About</h1> : null}
             {section === "Experience" ? <Experience /> : null}
             {section === "Education" ? <h1>Education</h1> : null}

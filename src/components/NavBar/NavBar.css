@@ -23,11 +23,10 @@
 
 /* Navbar */
 .navbar{
-    position: relative;
-    width: 20%;
+    position: fixed;
+    width: 20vw;
     height: 100%;
     background-image: linear-gradient(to right top, #4f3d63, #5a3d84, #623ca6, #663acb, #6538f1);
-    position: absolute;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -48,6 +47,7 @@
 .socialHandles{
     width: 35px;
     height: 35px;
+    border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,8 +58,15 @@
 }
 
 .socialHandles:hover{
-    filter: grayscale(0%) brightness(100%);
+    filter: grayscale(0%) brightness(110%);
     transform: scale(1.1);
+    box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.6);
+}
+
+.socialHandles:active{
+    filter: grayscale(0%) brightness(110%);
+    transform: scale(0.9);
+    box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.6);
 }
 
 .customUl{
@@ -147,7 +154,7 @@ button:active{
     }
 }
 
-@media (max-width: 1010px) {
+@media (min-width: 385px) and (max-width: 1010px) {
     .navbar{
         width: 100%;
         height: 10%;
@@ -171,7 +178,7 @@ button:active{
         align-items: center;
         user-select: none;
         color: white;
-        width: 100%;
+        min-width: 100%;
     }
 
     .myName{
@@ -191,8 +198,8 @@ button:active{
     }
 
     .buttonIcon{
-        max-width: 30%;
-        max-height: 2rem;
+        height: 2rem;
+        min-width: 2rem;
         margin: 0 5% 5% 5%;
         filter: invert(100%);
     }
@@ -216,5 +223,85 @@ button:active{
         height: 70%;
         width: 100%;
         align-items: center;
+    }
+
+    .socialHandlesContainer{
+        display: none;
+    }
+}
+
+@media (max-width: 385px) {
+    .navbar{
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-top: #ecdcff 2px solid;
+    }
+
+    .profilePic{
+        display: none;
+    }
+
+    ul{
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        user-select: none;
+        color: white;
+        min-width: 100%;
+    }
+
+    .myName{
+        display: none;
+    }
+
+    button{
+        cursor: pointer;
+        color: white;
+        background-color: transparent;
+        font-weight: bold;
+        width: 100%;
+        height: 10%;
+        transition: all 0.5s;
+        border: 2px solid transparent;
+        font-size: 0.6rem;
+    }
+
+    .buttonIcon{
+        height: 1.5rem;
+        min-width: 1.5rem;
+        margin: 0 5% 5% 5%;
+        filter: invert(100%);
+    }
+
+    li{
+        width: 100%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profilePicLi{
+        display: none;
+    }
+
+    .buttonDiv{
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .socialHandlesContainer{
+        display: none;
     }
 }
