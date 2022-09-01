@@ -9,12 +9,19 @@
 
 .experienceCard{
     border-radius: 12px;
+    border: 3px solid #686868;
     background-color: white;
     margin: 1%;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 100%;
     align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.experienceCard:hover{
+    transform: scale(1.01);
 }
 
 .logoClass{
