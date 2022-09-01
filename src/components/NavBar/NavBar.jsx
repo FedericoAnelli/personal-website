@@ -22,7 +22,7 @@ const NavBar = () => {
                 <li className="myName">Federico Anelli</li>
                 <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={infoIcon} alt="about" />About</div></button></li>
                 <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={experienceIcon} alt="experience" />Experience</div></button></li>
-                <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={educationIcon} alt="education" />Education</div></button></li>
+                <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={educationIcon} alt="education" /> Education </div></button></li>
                 <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={certificationsIcon} alt="licenses and certifications" />Certifications</div></button></li>
                 <li><button onClick={handleClick}><div className="buttonDiv"><img className="buttonIcon" src={projectsIcon} alt="projects" />Projects</div></button></li>
             </ul>
