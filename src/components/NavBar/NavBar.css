@@ -45,8 +45,8 @@
 }
 
 .socialHandles{
-    width: 15%;
-    height: 100%;
+    width: 35px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,7 @@
 
 .socialHandles:hover{
     filter: grayscale(0%) brightness(100%);
-    transform: scale(1.01);
+    transform: scale(1.1);
 }
 
 .customUl{
@@ -96,11 +96,12 @@ button{
     border: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
+    font-size: 0.7rem;
 }
 
 button:hover{
     transform: scale(1.1);
-    animation: borderMovement 2s linear infinite;
+    animation: borderMovement 1s linear infinite;
     box-shadow: 0px 0px 15px 2px rgba(46,46,46,0.6);
 }
 
