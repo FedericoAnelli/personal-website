@@ -1,26 +1,34 @@
 .certificatesGrid{
-    margin: 3% 0 1% 0;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 100%;
-    height: 100%;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 30%;
     width: 100%;
-    justify-content: center;
-    column-gap: 1%;
+    height: 100%;
+    row-gap: 1%;
 }
 
 .certificateImages{
+    height: 90%;
+    width: 70%;
+}
+
+.imageContainer{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.certificate{
-    height: 40%;
+.certificateCard{
+    height: 100%;
     width: 100%;
     transition: all 0.5s;
     cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+
 }
 
 .certificate:hover{

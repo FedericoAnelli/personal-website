@@ -68,8 +68,10 @@ const AcquiredCertificates = (field) => {
                     {certificates.map((certificate) => {
                         if (certificate.field === field.field) {
                             return (
-                                <div key={certificate.id} className="certificate">
+                                <div key={certificate.id} className="certificateCard">
+                                    <div className="imageContainer">
                                     <img className="certificateImages" src={certificate.path} alt={certificate.name} />
+                                    </div>
                                     <p className="titleCert">{certificate.name}</p>
                                 </div>
                             )

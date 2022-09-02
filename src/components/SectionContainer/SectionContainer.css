@@ -10,14 +10,15 @@
 
 .sectionsBody{
     height: 100%;
-    width: 80vw;
-    padding: 0 0 0 20vw;
+    width: 100%;
+    margin: 0 0 0 20vw;
 }
 
 .contentNavigator{
-    height: 50%;
+    height: 100%;
     width: 93%;
     margin: 0 3% 0 3%;
+    display: flex;
 }
 
 @media (max-width: 1010px) {
@@ -25,7 +26,7 @@
     .sectionsBody{
         height: 100%;
         width: 100%;
-        padding: 0 0 0 0;
+        margin: 0 0 0 0;
     }
     
 }

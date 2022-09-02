@@ -1,6 +1,9 @@
 .certifications{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 80%;
+    row-gap: 0;
     width: 100%;
     height: 100%;
 }
@@ -40,9 +43,9 @@
 .buttonSection{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100%;
     align-items: center;
-    height: 10%;
+    height: 100%;
     width: 100%;
 }
 
@@ -51,4 +54,5 @@
     backdrop-filter: blur(5px);
     display: flex;
     height: 100%;
+    width: 100%;
 }

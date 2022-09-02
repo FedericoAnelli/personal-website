@@ -10,10 +10,11 @@
 .experienceCardJob{
     border-radius: 12px;
     border: 3px solid #686868;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
     margin: 1%;
     display: grid;
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 93% 7%;
     grid-template-rows: 100%;
     transition: all 0.5s;
     cursor: pointer;
@@ -57,7 +58,7 @@
     background-color: white;
     margin: 1%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: 100%;
     align-items: center;
     transition: all 0.5s;
@@ -69,8 +70,8 @@
 }
 
 .logoClass{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 70%;
     align-self: center;
     justify-self: center;
 }
