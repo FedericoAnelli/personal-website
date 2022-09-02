@@ -12,7 +12,7 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     function handleClick(e){
-        navigate("/section/" + e);
+        navigate("/section/" + e.target.innerText);
     }
 
     return (
@@ -20,11 +20,11 @@ const NavBar = () => {
             <ul>
                 <li className="profilePicLi"><div className="profilePic"></div></li>
                 <li className="myName">Federico Anelli</li>
-                <li><button onClick={() => handleClick("About")}><div className="buttonDiv"><img className="buttonIcon" src={infoIcon} alt="about" />About</div></button></li>
-                <li><button onClick={() => handleClick("Experience")}><div className="buttonDiv"><img className="buttonIcon" src={experienceIcon} alt="experience" />Experience</div></button></li>
-                <li><button onClick={() => handleClick("Education")}><div className="buttonDiv"><img className="buttonIcon" src={educationIcon} alt="education" /> Education </div></button></li>
-                <li><button onClick={() => handleClick("Certifications")}><div className="buttonDiv"><img className="buttonIcon" src={certificationsIcon} alt="licenses and certifications" />Certifications</div></button></li>
-                <li><button onClick={() => handleClick("Projects")}><div className="buttonDiv"><img className="buttonIcon" src={projectsIcon} alt="projects" />Projects</div></button></li>
+                <li><button className="buttonNavBar" onClick={(e) => handleClick(e)}><div className="buttonDiv"><img className="buttonIcon" src={infoIcon} alt="about" />About</div></button></li>
+                <li><button className="buttonNavBar" onClick={(e) => handleClick(e)}><div className="buttonDiv"><img className="buttonIcon" src={experienceIcon} alt="experience" />Experience</div></button></li>
+                <li><button className="buttonNavBar" onClick={(e) => handleClick(e)}><div className="buttonDiv"><img className="buttonIcon" src={educationIcon} alt="education" /> Education </div></button></li>
+                <li><button className="buttonNavBar" onClick={(e) => handleClick(e)}><div className="buttonDiv"><img className="buttonIcon" src={certificationsIcon} alt="licenses and certifications" />Certifications</div></button></li>
+                <li><button className="buttonNavBar" onClick={(e) => handleClick(e)}><div className="buttonDiv"><img className="buttonIcon" src={projectsIcon} alt="projects" />Projects</div></button></li>
             </ul>
             <div className="socialHandlesContainer">
                 <img className="socialHandles" src={linkedinIcon} alt="linkedin button" />

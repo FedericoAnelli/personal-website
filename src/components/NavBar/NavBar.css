@@ -113,7 +113,7 @@ li{
     filter: invert(100%);
 }
 
-button{
+.buttonNavBar{
     cursor: pointer;
     background-color: #4f3d63;
     color: white;
@@ -129,13 +129,13 @@ button{
     user-select: none;
 }
 
-button:hover{
+.buttonNavBar:hover{
     transform: scale(1.1);
     animation: borderMovement 1s linear infinite;
     box-shadow: 0px 0px 15px 2px rgba(46,46,46,0.6);
 }
 
-button:active{
+.buttonNavBar:active{
     transform: scale(0.9);
     animation: borderMovement 2s linear infinite;
     box-shadow: 0px 0px 15px 2px rgba(46,46,46,0.6);
@@ -169,8 +169,8 @@ button:active{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border-top-right-radius: 16px;
-        border-top-left-radius: 16px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
         border-bottom-right-radius: 0;
     }
 
@@ -194,7 +194,7 @@ button:active{
         display: none;
     }
 
-    button{
+    .buttonNavBar{
         cursor: pointer;
         color: white;
         background-color: transparent;
@@ -206,7 +206,7 @@ button:active{
         font-size: 0.8rem;
     }
 
-    button:hover{
+    .buttonNavBar:hover{
         transform: none;
         animation: none;
         box-shadow: none;
@@ -282,7 +282,7 @@ button:active{
         display: none;
     }
 
-    button{
+    .buttonNavBar{
         cursor: pointer;
         color: white;
         background-color: transparent;

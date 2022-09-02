@@ -11,42 +11,49 @@ const AcquiredCertificates = (field) => {
 
     const certificates = [
         {
+            id: "REACT",
             name: "ReactJS",
             field: "Development",
             path: ReactJSCertificate,
             link: "https://www.coderhouse.com/certificados/6309376bab2fa90019078dce"
         },
         {
+            id: "JAVASCRIPT",
             name: "JavaScript",
             field: "Development",
             path: JavaScriptCertificate,
             link: "https://www.coderhouse.com/certificados/6309376bab2fa90019078dce"
         },
         {
+            id: "WEBDEV",
             name: "Web Development",
             field: "Development",
             path: WebDevCertificate,
             link: "https://www.coderhouse.com/certificados/6309376bab2fa90019078dce"
         },
         {
+            id: "PSPO",
             name: "Professional Scrum Product Owner™ I (PSPO I)",
             field: "Product",
             path: pspo,
             link: "https://www.credly.com/badges/a873a3d0-691e-4267-b786-7b91a3d87da0"
         },
         {
+            id: "TYPES",
             name: "Types of Conflict",
             field: "Soft Skills",
             path: typesOfConflict,
             link: "https://www.coursera.org/account/accomplishments/certificate/RAJ76BCKEZMS"
         },
         {
+            id: "CONFRES",
             name: "Conflict Resolution Skills",
             field: "Soft Skills",
             path: conflictResolutionSkills,
             link: "https://www.coursera.org/account/accomplishments/certificate/ZLMVY3XFPTAX"
         },
         {
+            id: "INTCOM",
             name: "Intercultural Communication and Conflict Resolution",
             field: "Soft Skills",
             path: interculturalComAndConfRes,
@@ -61,7 +68,7 @@ const AcquiredCertificates = (field) => {
                     {certificates.map((certificate) => {
                         if (certificate.field === field.field) {
                             return (
-                                <div className="certificate">
+                                <div key={certificate.id} className="certificate">
                                     <img className="certificateImages" src={certificate.path} alt={certificate.name} />
                                     <p className="titleCert">{certificate.name}</p>
                                 </div>

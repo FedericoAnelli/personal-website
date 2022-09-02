@@ -15,8 +15,9 @@
 }
 
 .contentNavigator{
-    height: 80%;
-    width: 100%;
+    height: 50%;
+    width: 94%;
+    margin: 0 3% 0 3%;
 }
 
 @media (max-width: 1010px) {
