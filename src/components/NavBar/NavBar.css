@@ -197,11 +197,23 @@ button:active{
         font-size: 0.8rem;
     }
 
+    button:hover{
+        transform: none;
+        animation: none;
+        box-shadow: none;
+    }
+
     .buttonIcon{
         height: 2rem;
         min-width: 2rem;
         margin: 0 5% 5% 5%;
         filter: invert(100%);
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .buttonIcon:hover{
+        transform: scale(1.2);
     }
 
     li{
