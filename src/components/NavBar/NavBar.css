@@ -26,13 +26,19 @@
     position: fixed;
     width: 20vw;
     height: 100%;
-    background-image: linear-gradient(to right top, #4f3d63, #5a3d84, #623ca6, #663acb, #6538f1);
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 6px 1px 19px 8px #7f62a0;
     border-right: #ecdcff 2px solid;
+    background: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 999;
 }
 
 .socialHandlesContainer{
@@ -60,11 +66,11 @@
 .socialHandles:hover{
     filter: grayscale(0%) brightness(110%);
     transform: scale(1.1);
-    box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 1px 2px rgba(255, 255, 255, 0.6);
 }
 
 .socialHandles:active{
-    filter: grayscale(0%) brightness(110%);
+    filter: grayscale(0%) brightness(100%);
     transform: scale(0.9);
     box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.6);
 }
@@ -163,7 +169,9 @@ button:active{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border-top: #ecdcff 2px solid;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 0;
     }
 
     .profilePic{
@@ -179,6 +187,7 @@ button:active{
         user-select: none;
         color: white;
         min-width: 100%;
+
     }
 
     .myName{

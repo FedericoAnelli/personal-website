@@ -1,6 +1,7 @@
 import "./SectionContainer.css";
 import { useParams, useNavigate } from "react-router-dom";
 import Experience from "../Experience/Experience";
+import Certifications from "../Certifications/Certifications";
 
 const SectionContainer = () => {
 const { section } = useParams();
@@ -25,7 +26,7 @@ return (
             {section === "About" ? <h1>About</h1> : null}
             {section === "Experience" ? <Experience /> : null}
             {section === "Education" ? <h1>Education</h1> : null}
-            {section === "Certifications" ? <h1>Certifications</h1> : null}
+            {section === "Certifications" ? <Certifications /> : null}
             {section === "Projects" ? <h1>Projects</h1> : null}
         </div>
    </div> 
