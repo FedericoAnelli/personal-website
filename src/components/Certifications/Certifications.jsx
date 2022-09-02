@@ -3,7 +3,7 @@ import "./Certifications.css";
 import { useState } from "react";
 
 const Certifications = () => {
-    const [certificates, setCertificates] = useState([]);
+    const [certificates, setCertificates] = useState("Development");
 
     const handleClick = (e) => {
         setCertificates(e.target.innerText);
