@@ -8,7 +8,7 @@
 .buttonSection{
     display: flex;
     flex-direction: row;
-    height: 15%;
+    height: 10%;
 }
 
 .certificationsContainer{
