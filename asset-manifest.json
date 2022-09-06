@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.94578d6e.css",
-    "main.js": "/personal-website/static/js/main.dc154947.js",
+    "main.css": "/personal-website/static/css/main.3e695a82.css",
+    "main.js": "/personal-website/static/js/main.12aed5de.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/ReactJSCertificate.png": "/personal-website/static/media/ReactJSCertificate.6b4070dd8c0ab6b597b8.png",
     "static/media/WebDevCertificate.png": "/personal-website/static/media/WebDevCertificate.a0cc22022e270215b7b6.png",
@@ -9,6 +9,7 @@
     "static/media/interculturalComAndConfRes.webp": "/personal-website/static/media/interculturalComAndConfRes.ca65373b5c74dba2bc30.webp",
     "static/media/conflictResolutionSkills.webp": "/personal-website/static/media/conflictResolutionSkills.f802ff4b3c8e5a678cd5.webp",
     "static/media/typesOfConflict.webp": "/personal-website/static/media/typesOfConflict.4943dadb4b0aa6012ede.webp",
+    "static/media/conflictManagementSpecialization.webp": "/personal-website/static/media/conflictManagementSpecialization.498540a6ec9affbd0e4b.webp",
     "static/media/pspo.webp": "/personal-website/static/media/pspo.13499f062e3594981302.webp",
     "static/media/profilePic.webp": "/personal-website/static/media/profilePic.54c6b5e3586c003c5349.webp",
     "static/media/whatsapp.png": "/personal-website/static/media/whatsapp.d026940870fb334920b7.png",
@@ -18,12 +19,12 @@
     "static/media/TWDC.webp": "/personal-website/static/media/TWDC.9a9e83c18e228248d8f8.webp",
     "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-website/index.html",
-    "main.94578d6e.css.map": "/personal-website/static/css/main.94578d6e.css.map",
-    "main.dc154947.js.map": "/personal-website/static/js/main.dc154947.js.map",
+    "main.3e695a82.css.map": "/personal-website/static/css/main.3e695a82.css.map",
+    "main.12aed5de.js.map": "/personal-website/static/js/main.12aed5de.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94578d6e.css",
-    "static/js/main.dc154947.js"
+    "static/css/main.3e695a82.css",
+    "static/js/main.12aed5de.js"
   ]
 }
