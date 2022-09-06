@@ -219,14 +219,10 @@ li{
     .buttonIcon{
         width: 100%;
         height: auto;
-        transform: scale(2.5);
+        transform: scale(2);
         filter: invert(100%);
         transition: all 0.5s;
         cursor: pointer;
-    }
-
-    .buttonIcon:hover{
-        transform: none;
     }
 
     li{
@@ -250,6 +246,7 @@ li{
         width: 100%;
         align-items: center;
         justify-items: center;
+        font-weight: lighter;
     }
 
     .socialHandlesContainer{
