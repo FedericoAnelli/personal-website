@@ -3,5 +3,6 @@
     flex-direction: column;
     margin: 5%;
     text-align: left;
-    font-size: large;
+    font-size: small;
+    width: 100%;
 }
