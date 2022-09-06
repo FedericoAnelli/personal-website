@@ -17,7 +17,6 @@
 
 .certificateImages:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 45px 16px rgba(255, 255, 255, 0.5);
 }
 
 .certificateCard{
@@ -37,7 +36,7 @@
 
 .detailCert{
     text-align: left;
-    color: white;
+    color: #414141;
     align-self: top;
     justify-self: flex-start;
 }
@@ -69,7 +68,6 @@
 
     .detailCert{
         text-align: left;
-        color: white;
         margin: 0;
         justify-self: flex-start;
     }

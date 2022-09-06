@@ -12,9 +12,8 @@
     height: 20vh;
     border-radius: 50%;
     margin: 10%;
-    background-color: white;
     border: 3px solid transparent;
-    border-color: rgb(255, 255, 255);
+    border-color: #414141;
     background-image: url("/src/assets/images/profilePic.webp");
     background-size: cover;
     background-position: center;
@@ -31,11 +30,8 @@
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 6px 1px 19px 8px #7f62a0;
-    border-right: #ecdcff 2px solid;
-    background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     z-index: 999;
 }
 
@@ -92,7 +88,7 @@ li{
 }
 
 .myName{
-    color: white;
+    color: #414141;
     margin: 5% 0 15% 0;
     font-weight: bolder;
 }
@@ -108,13 +104,12 @@ li{
     height: 70%;
     width: auto;
     margin: 0 5% 0 5%;
-    filter: invert(100%);
+    filter: invert(25%);
 }
 
 .buttonNavBar{
     cursor: pointer;
-    background-color: #4f3d63;
-    color: white;
+    color: #414141;
     font-weight: bolder;
     width: 70%;
     margin: 5%;
@@ -182,7 +177,6 @@ li{
         flex-direction: row;
         align-items: center;
         user-select: none;
-        color: white;
         min-width: 100%;
 
     }
@@ -193,7 +187,6 @@ li{
 
     .buttonNavBar{
         cursor: pointer;
-        color: white;
         background-color: transparent;
         font-weight: bold;
         width: 100%;
@@ -225,8 +218,6 @@ li{
     }
 
     .buttonIcon{
-
-        filter: invert(100%);
         transition: all 0.5s;
         cursor: pointer;
     }

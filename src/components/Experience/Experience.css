@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: 15%;
-    row-gap: 0%;
+    row-gap: 1%;
 }
 
 .textCard{
@@ -18,7 +18,7 @@
     backdrop-filter: blur(5px);
     margin: 0.7% 1% 0 1%;
     display: grid;
-    grid-template-columns: 93% 7%;
+    grid-template-columns: 90% 10%;
     grid-template-rows: 100%;
     transition: all 0.5s;
     cursor: pointer;
@@ -37,8 +37,8 @@
 }
 
 .arrowDown{
-    height: 30%;
-    width: 30%;
+    width: 60%;
+    height: auto;
     transition: all 0.5s;
 }
 
@@ -62,7 +62,7 @@
     background-color: white;
     margin: 1%;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: 100%;
     align-items: center;
     transition: all 0.5s;
@@ -74,8 +74,8 @@
 }
 
 .logoClass{
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
     align-self: center;
     justify-self: center;
 }

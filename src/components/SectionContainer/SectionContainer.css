@@ -7,19 +7,19 @@
     flex-direction: column;
     align-items: center;
     font-size: larger;
-    color: white;
+    color: #414141;
     justify-content: center;
     box-shadow: 6px 1px 19px 8px #7f62a0;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .headerTitle{
     height: 100%;
     width: 100%;
-    border-bottom: #ecdcff 1px solid;
+    border-bottom: #414141 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
 .sectionsBody{
     height: 100%;
     width: 100%;
-    margin: 0 0 0 20.15vw;
+    margin: 0 0 0 20vw;
     overflow-y: scroll;
 }
 
