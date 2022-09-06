@@ -208,7 +208,7 @@ li{
         box-shadow: none;
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
-        border-top-width: 1px;
+        border-top-width: 2px;
         border-bottom:0;
         border-left:0;
         border-right:0;
@@ -218,7 +218,7 @@ li{
         transform: none;
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
-        border-top-width: 1px;
+        border-top-width: 2px;
         border-bottom:0;
         border-left:0;
         border-right:0;
