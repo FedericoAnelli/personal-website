@@ -76,9 +76,7 @@ const AcquiredCertificates = (field) => {
                         if (certificate.field === field.field) {
                             return (
                                 <div key={certificate.id} className="certificateCard">
-                                    <div className="imageContainer">
                                     <img className="certificateImages" src={certificate.path} alt={certificate.name} />
-                                    </div>
                                     <div className="detailCert">
                                     <h2 className="detailTitle">{certificate.name}</h2>
                                     <p className="detailSchool">Coderhouse</p>

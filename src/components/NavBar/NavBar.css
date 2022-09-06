@@ -208,6 +208,11 @@ li{
         transform: none;
         animation: none;
         box-shadow: none;
+        border-top: #ecdcff 2px solid;
+    }
+
+    .buttonNavBar:active{
+        border-top: #ecdcff 2px solid;
     }
 
     .buttonIcon{
@@ -220,7 +225,7 @@ li{
     }
 
     .buttonIcon:hover{
-        transform: scale(1.2);
+        transform: none;
     }
 
     li{

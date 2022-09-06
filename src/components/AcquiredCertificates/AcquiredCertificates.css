@@ -1,32 +1,24 @@
 .certificatesGrid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 30%;
+    grid-auto-rows: 1fr;
     width: 100%;
     height: 100%;
-    row-gap: 1%;
-    margin: 3% 3% 0 3%;
 }
 
 .certificateImages{
-    height: 100%;
-    width: 100%;
+    width: 55%;
+    height: auto;
     margin: 0 5% 0 5%;
     transition: all 0.5s;
     cursor: pointer;
+    align-self: top;
+    justify-self: center;
 }
 
 .certificateImages:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 45px 16px rgba(255, 255, 255, 0.5);
-}
-
-.imageContainer{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .certificateCard{
@@ -35,7 +27,7 @@
     transition: all 0.5s;
     cursor: pointer;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     grid-template-rows: 100%;
 
 }
@@ -47,7 +39,7 @@
 .detailCert{
     text-align: left;
     color: white;
-    margin: 0 0 0 5%;
+    align-self: top;
 }
 
 .detailTitle{
@@ -60,3 +52,42 @@
     font-weight: light;
 }
 
+@media (max-width: 900px) {
+    .certificateCard{
+        height: 100%;
+        width: 100%;
+        transition: all 0.5s;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 0.2fr 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detailCert{
+        text-align: left;
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
+    .detailTitle{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .detailSchool{
+        font-size: .5rem;
+        font-weight: light;
+    }
+
+    .certificateImages{
+        width: 25%;
+        height: auto;
+        margin: 0 5% 0 5%;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+}
