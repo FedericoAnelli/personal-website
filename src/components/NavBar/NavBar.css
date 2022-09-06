@@ -159,13 +159,7 @@ li{
     }
 }
 
-@media (max-height: 830px){
-    .navbar{
-        overflow-y: scroll;
-    }
-}
-
-@media (max-width: 1010px) {
+@media (max-width: 1010px) or (max-height: 800px){
     .navbar{
         width: 100%;
         height: 10%;
