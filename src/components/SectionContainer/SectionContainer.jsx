@@ -39,7 +39,7 @@ return (
         {section === "Certifications" ? <div className="headerSubMenu"><Submenu handleClick={handleClick} certificates={certificates} section="Certifications" /></div> : null}
         </div>
         <div className="contentNavigator">
-            {section === "Hello!" ? <About /> : null}
+            {section === "About" ? <About /> : null}
             {section === "Experience" ? <Experience /> : null}
             {section === "Education" ? <Education /> : null}
             {section === "Certifications" ? <Certifications certificates={certificates}/> : null}

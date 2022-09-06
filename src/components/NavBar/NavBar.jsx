@@ -7,6 +7,8 @@ import experienceIcon from "../../assets/icons/experience.png";
 import educationIcon from "../../assets/icons/education.png";
 import certificationsIcon from "../../assets/icons/certifications.png";
 import projectsIcon from "../../assets/icons/projects.png";
+import mailIcon from "../../assets/icons/mail.png";
+import whatsappIcon from "../../assets/icons/whatsapp.png";
 
 const NavBar = () => {
     const navigate = useNavigate();
@@ -27,8 +29,10 @@ const NavBar = () => {
                 <li><button className="buttonNavBar" onClick={(e) => handleClick("Projects")}><div className="buttonDiv"><img className="buttonIcon" src={projectsIcon} alt="projects" />Projects</div></button></li>
             </ul>
             <div className="socialHandlesContainer">
-                <img className="socialHandles" src={linkedinIcon} alt="linkedin button" />
-                <img className="socialHandles" src={githubIcon} alt="github button" />
+                <a href="https://www.linkedin.com/in/federico-anelli/" target="_blank"><img className="socialHandles" src={linkedinIcon} alt="linkedin" /></a>
+                <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={githubIcon} alt="github" /></a>
+                <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={whatsappIcon} alt="whatsapp" /></a>
+                <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={mailIcon} alt="mail" /></a>
             </div>
         </div>
     );

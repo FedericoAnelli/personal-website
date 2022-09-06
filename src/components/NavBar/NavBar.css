@@ -6,12 +6,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+a{
+    margin: 1%;
+}
+
 /* Profile picture */
 .profilePic{
-    width: 12vw;
-    height: 20vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    margin: 10%;
     border: 3px solid transparent;
     border-color: #414141;
     background-image: url("/src/assets/images/profilePic.webp");
@@ -55,28 +59,28 @@
     filter: grayscale(100%) brightness(50%);
     transition: all 0.5s;
     cursor: pointer;
+    border: transparent 2px solid;
 }
 
 .socialHandles:hover{
-    filter: grayscale(0%) brightness(110%);
+    filter: grayscale(0%) brightness(100%);
     transform: scale(1.1);
-    box-shadow: 0px 0px 1px 2px rgba(255, 255, 255, 0.6);
+    border: 2px #414141 solid;
 }
 
 .socialHandles:active{
     filter: grayscale(0%) brightness(100%);
     transform: scale(0.9);
-    box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.6);
+    border: #414141 2px solid;
 }
 
-.customUl{
+ul{
     list-style-type: none;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    user-select: none;
-    color: white;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 10% 8% 8% 8% 8% 8%;
+    row-gap: 2%;
 }
 
 li{
@@ -111,9 +115,9 @@ li{
     cursor: pointer;
     color: #414141;
     font-weight: bolder;
-    width: 70%;
+    width: 100%;
     margin: 5%;
-    height: 5vh;
+    height: 100%;
     transition: all 0.5s;
     border: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
@@ -161,9 +165,6 @@ li{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0;
     }
 
     .profilePic{
@@ -172,13 +173,14 @@ li{
 
     ul{
         list-style-type: none;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        user-select: none;
-        min-width: 100%;
-
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        column-gap: 0;
     }
 
     .myName{
@@ -188,7 +190,7 @@ li{
     .buttonNavBar{
         cursor: pointer;
         background-color: transparent;
-        font-weight: bold;
+        font-size: x-small;
         width: 100%;
         height: 100%;
         transition: all 0.5s;
@@ -203,7 +205,7 @@ li{
         box-shadow: none;
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
-        border-top-width: 2px;
+        border-top-width: 1px;
         border-bottom:0;
         border-left:0;
         border-right:0;
@@ -213,7 +215,7 @@ li{
         transform: none;
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
-        border-top-width: 2px;
+        border-top-width: 1px;
         border-bottom:0;
         border-left:0;
         border-right:0;
@@ -222,6 +224,8 @@ li{
     .buttonIcon{
         transition: all 0.5s;
         cursor: pointer;
+        margin: 0;
+
     }
 
     li{
