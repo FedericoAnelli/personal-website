@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="navbar">
             <ul>
                 <li className="profilePicLi"><div className="profilePic"></div></li>
-                <li className="myName">Federico Anelli</li>
+                <li className="myName"><strong>Federico Anelli</strong>Computer Systems Engineer<br />ReactJS Front End Developer<br />Certified Scrum Product Owner</li>
                 <li><button className="buttonNavBar" onClick={(e) => handleClick("About")}><div className="buttonDiv"><img className="buttonIcon" src={infoIcon} alt="about" />About</div></button></li>
                 <li><button className="buttonNavBar" onClick={(e) => handleClick("Experience")}><div className="buttonDiv"><img className="buttonIcon" src={experienceIcon} alt="experience" />Experience</div></button></li>
                 <li><button className="buttonNavBar" onClick={(e) => handleClick("Education")}><div className="buttonDiv"><img className="buttonIcon" src={educationIcon} alt="education" /> Education </div></button></li>
@@ -31,8 +31,8 @@ const NavBar = () => {
             <div className="socialHandlesContainer">
                 <a href="https://www.linkedin.com/in/federico-anelli/" target="_blank"><img className="socialHandles" src={linkedinIcon} alt="linkedin" /></a>
                 <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={githubIcon} alt="github" /></a>
-                <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={whatsappIcon} alt="whatsapp" /></a>
-                <a href="https://github.com/FedericoAnelli" target="_blank"><img className="socialHandles" src={mailIcon} alt="mail" /></a>
+                <a href="https://wa.me/5491159704798" target="_blank"><img className="socialHandles" src={whatsappIcon} alt="whatsapp" /></a>
+                <a href="mailto:federicoanelli@gmail.com" target="_blank"><img className="socialHandles" src={mailIcon} alt="mail" /></a>
             </div>
         </div>
     );

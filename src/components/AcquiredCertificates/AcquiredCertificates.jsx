@@ -6,6 +6,7 @@ import pspo from "../../assets/images/pspo.webp";
 import conflictResolutionSkills from "../../assets/images/conflictResolutionSkills.webp";
 import interculturalComAndConfRes from "../../assets/images/interculturalComAndConfRes.webp";
 import typesOfConflict from "../../assets/images/typesOfConflict.webp";
+import conflictManagementSpecialization from "../../assets/images/conflictManagementSpecialization.webp";
 
 const AcquiredCertificates = (field) => {
 
@@ -43,12 +44,20 @@ const AcquiredCertificates = (field) => {
             link: "https://www.credly.com/badges/a873a3d0-691e-4267-b786-7b91a3d87da0"
         },
         {
-            id: "TYPES",
-            name: "Types of Conflict",
+            id: "CONFSPEC",
+            name: "Conflict Management Specialization",
             field: "Soft Skills",
-            grade: "89.78%",
-            path: typesOfConflict,
-            link: "https://www.coursera.org/account/accomplishments/certificate/RAJ76BCKEZMS"
+            grade: "100%",
+            path: conflictManagementSpecialization,
+            link: "https://www.coursera.org/account/accomplishments/specialization/FGCBFW2VEEGG"
+        },
+        {
+            id: "INTCOM",
+            name: "Intercultural Communication and Conflict Resolution",
+            field: "Soft Skills",
+            grade: "100%",
+            path: interculturalComAndConfRes,
+            link: "https://www.coursera.org/account/accomplishments/certificate/D4PJUEVHET2M"
         },
         {
             id: "CONFRES",
@@ -59,13 +68,13 @@ const AcquiredCertificates = (field) => {
             link: "https://www.coursera.org/account/accomplishments/certificate/ZLMVY3XFPTAX"
         },
         {
-            id: "INTCOM",
-            name: "Intercultural Communication and Conflict Resolution",
+            id: "TYPES",
+            name: "Types of Conflict",
             field: "Soft Skills",
-            grade: "100%",
-            path: interculturalComAndConfRes,
-            link: "https://www.coursera.org/account/accomplishments/certificate/D4PJUEVHET2M"
-        },
+            grade: "89.78%",
+            path: typesOfConflict,
+            link: "https://www.coursera.org/account/accomplishments/certificate/RAJ76BCKEZMS"
+        }
     ]
 
 

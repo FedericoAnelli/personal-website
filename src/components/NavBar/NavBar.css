@@ -79,7 +79,7 @@ ul{
     margin: 10%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 40% 10% 8% 8% 8% 8% 8%;
+    grid-template-rows: 40% 15% 8% 8% 8% 8% 8%;
     row-gap: 2%;
 }
 
@@ -93,8 +93,10 @@ li{
 
 .myName{
     color: #414141;
-    margin: 5% 0 15% 0;
-    font-weight: bolder;
+    font-weight: light;
+    font-size: small;
+    align-self: center;
+    justify-self: center;
 }
 
 .buttonDiv{

@@ -12,7 +12,7 @@ const About = () => {
 
         <p><br />Currently, I am <strong>Head of Digital Product & Technology</strong> for <strong>Radio Disney in Latin America</strong> (Argentina, Brazil, Mexico, Chile, Uruguay, Ecuador, Bolivia, Paraguay, Peru, Panama, Dominican Republic & Costa Rica).</p>
         
-        <p><br />While I'm open to relocation opportunities to the EU or USA, I'm also available for Front End Development projects or Digital Transformation Consultancy</p>
+        <p><br />While I'm open to relocation opportunities to the EU or USA, I'm also available for Front End Development projects or Digital consulting</p>
         </div>
     );
 

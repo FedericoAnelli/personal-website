@@ -18,6 +18,22 @@ function Submenu({handleClick, certificates, section}) {
         {
             name: "Languages",
             section: "Certifications",
+        },
+        {
+            name: "Product Management - Web",
+            section: "Projects",
+        },
+        {
+            name: "Product Management - Mobile",
+            section: "Projects",
+        },
+        {
+            name: "Web Development",
+            section: "Projects",
+        },
+        {
+            name: "Others",
+            section: "Projects",
         }
     ]
 

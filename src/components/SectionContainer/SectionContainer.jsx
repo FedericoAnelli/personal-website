@@ -37,6 +37,7 @@ return (
                {!section ? <h1>Home</h1> : <h1>{validateSection(section)}</h1>}
          </div>
         {section === "Certifications" ? <div className="headerSubMenu"><Submenu handleClick={handleClick} certificates={certificates} section="Certifications" /></div> : null}
+        {section === "Projects" ? <div className="headerSubMenu"><Submenu section="Projects" /></div> : null}
         </div>
         <div className="contentNavigator">
             {section === "About" ? <About /> : null}

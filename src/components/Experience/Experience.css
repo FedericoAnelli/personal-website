@@ -1,7 +1,7 @@
 .experienceBody{
     height: 100%;
     width: 100%;
-    margin: 0 5% 5% 5%;
+    margin: 5%;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: 10%;
@@ -37,8 +37,8 @@
 }
 
 .arrowDown{
-    width: 60%;
-    height: auto;
+    height: 60%;
+    width: auto;
     transition: all 0.5s;
 }
 
