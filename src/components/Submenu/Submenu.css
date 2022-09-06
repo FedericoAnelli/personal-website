@@ -7,14 +7,18 @@
     border: none;
     cursor: pointer;
     user-select: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
 }
 
 .customButtons:hover{
-    background-color: #B1B1B1;
+    background-color: rgba(177, 177, 177, 0.7);
+    backdrop-filter: blur(5px);
 }
 
 .customButtons:active{
-    background-color: #B1B1B1;
+    background-color: rgba(177, 177, 177, 0.7);
+    backdrop-filter: blur(5px);
 }
 
 .customSelectedButton{
@@ -22,7 +26,8 @@
     height: 100%;
     width: 100%;
     color: #414141;
-    background-color: #B1B1B1;
+    background-color: rgba(177, 177, 177, 0.7);
+    backdrop-filter: blur(5px);
     font-weight: bolder;
     cursor: pointer;
     user-select: none;
@@ -35,4 +40,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    border-bottom: #414141 solid 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
