@@ -1,19 +1,18 @@
 .certificatesGrid{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-template-columns: 100%;
+    grid-auto-rows: 25%;
     width: 100%;
     height: 100%;
 }
 
 .certificateImages{
-    width: 55%;
+    width: 100%;
     height: auto;
-    margin: 0 5% 0 5%;
     transition: all 0.5s;
     cursor: pointer;
     align-self: top;
-    justify-self: center;
+    justify-self: flex-start;
 }
 
 .certificateImages:hover{
@@ -22,14 +21,14 @@
 }
 
 .certificateCard{
-    height: 100%;
+    height: auto;
     width: 100%;
     transition: all 0.5s;
     cursor: pointer;
     display: grid;
-    grid-template-columns: 0.8fr 1fr;
+    grid-template-columns: 20% 80%;
     grid-template-rows: 100%;
-
+    column-gap: 5%;
 }
 
 .certificate:hover{
@@ -40,6 +39,7 @@
     text-align: left;
     color: white;
     align-self: top;
+    justify-self: flex-start;
 }
 
 .detailTitle{
@@ -59,18 +59,19 @@
         transition: all 0.5s;
         cursor: pointer;
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 0.2fr 1fr;
+        grid-template-columns: 65% 35%;
+        grid-auto-rows: 1fr;
         justify-items: center;
-        align-items: center;
+        align-items: top;
         justify-content: center;
+        column-gap: 5%;
     }
 
     .detailCert{
         text-align: left;
         color: white;
         margin: 0;
-        text-align: center;
+        justify-self: flex-start;
     }
 
     .detailTitle{
@@ -84,7 +85,7 @@
     }
 
     .certificateImages{
-        width: 25%;
+        width: 100%;
         height: auto;
         margin: 0 5% 0 5%;
         transition: all 0.5s;
