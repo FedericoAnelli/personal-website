@@ -55,7 +55,7 @@ const Experience = () => {
 
                 <div className="experienceCardJob">
                     <div className="experienceCardJobText">
-                        <h2>Regional Head of Digital Product & Technology</h2>
+                        <h2 className="experienceh2">Regional Head of Digital Product & Technology</h2>
                         <p>Jul 2021 - Present | {calculateExperienceInJob()}</p>
                         <p>Buenos Aires, Argentina</p>                  
                     </div>
@@ -84,7 +84,7 @@ const Experience = () => {
                 </div>
             <div className="experienceCardJob">
                 <div className="experienceCardJobText">
-                <h2>Jr. Manager, Digital</h2>
+                <h2 className="experienceh2">Jr. Manager, Digital</h2>
                 <p>Jan 2020 - Jul 2021 | 1 year and 7 months</p>
                 <p>Buenos Aires, Argentina</p>
                 </div>
@@ -120,7 +120,7 @@ const Experience = () => {
             </div>
             <div className="experienceCardJob">
                 <div className="experienceCardJobText">
-                <h2>Project Management Supervisor @ Radio Disney</h2>
+                <h2 className="experienceh2">Project Management Supervisor @ Radio Disney</h2>
                 <p>Oct 2017 - Jan 2020 | 2 years and 4 months</p>
                 <p>Buenos Aires, Argentina</p>
                 </div>
@@ -158,7 +158,7 @@ const Experience = () => {
             </div>
             <div className="experienceCardJob">
                 <div className="experienceCardJobText">
-                <h2>Project Management Supervisor @ Disney Interactive</h2>
+                <h2 className="experienceh2">Project Management Supervisor @ Disney Interactive</h2>
                 <p>May 2015 - Oct 2017 | 2 years and 6 months</p>
                 <p>Buenos Aires, Argentina</p>
                 </div>
@@ -197,7 +197,7 @@ const Experience = () => {
             </div>
             <div className="experienceCardJob">
                 <div className="experienceCardJobText">
-                <h2>Team Lead</h2>
+                <h2 className="experienceh2">Team Lead</h2>
                 <p>May 2012 - May 2015 | 3 years and 1 month</p>
                 <p>Buenos Aires, Argentina</p>
                 </div>
@@ -248,7 +248,7 @@ const Experience = () => {
             </div>
             <div className="experienceCardJob">
                 <div className="experienceCardJobText">
-                <h2>Player Support Representative</h2>
+                <h2 className="experienceh2">Player Support Representative</h2>
                 <p>Dec 2009 - May 2012 | 2 years and 6 months</p>
                 <p>Buenos Aires, Argentina</p>
                 </div>
