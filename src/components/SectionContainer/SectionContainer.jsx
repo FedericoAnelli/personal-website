@@ -29,7 +29,6 @@ const handleClick = (e) => {
    setCertificates(e.target.innerText);
 }
 
-
 return (
    <div className="sectionsBody">
         <div className="headerDiv">

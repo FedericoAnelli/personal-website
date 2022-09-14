@@ -51,7 +51,7 @@ function Submenu({handleClick, certificates, section}) {
             {subsections.map((subsection) => {
                 if (subsection.section === section){
                 return (
-                    <button className={buttonClass(subsection.name)} onClick={(e)=>handleClick(e)}>{subsection.name}</button>
+                    <button key={subsection.name} className={buttonClass(subsection.name)} onClick={(e)=>handleClick(e)}>{subsection.name}</button>
                 )
                 }
             })}
