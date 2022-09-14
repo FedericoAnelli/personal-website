@@ -12,6 +12,14 @@
     font-size: medium;
 }
 
+.jobDescription{
+    font-size: small;
+    opacity: 0%;
+    grid-column: 2 span;
+    transition: all 0.5s;
+    text-align: left;
+}
+
 .experienceCardJob{
     border: 3px solid #686868;
     background-color: rgba(255, 255, 255, 0.9);
@@ -23,6 +31,7 @@
     transition: all 0.5s;
     cursor: pointer;
     padding: 1%;
+    transition: all 0.8s;
 }
 
 .experienceCardJob:hover{
@@ -34,6 +43,7 @@
     flex-direction: column;
     text-align: left;
     font-size: small;
+    transition: all 0.5s;
 }
 
 .arrowDown{
@@ -69,13 +79,33 @@
     cursor: pointer;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1010px) {
     .experienceCard{
         grid-template-columns: 30% 40% 30%;
     }
 
     .textCard{
         font-size: x-small;
+    }
+
+    .experienceCardJobText{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: x-small;
+        transition: all 0.5s;
+    }
+
+    .jobDescription{
+        font-size: x-small;
+        opacity: 0%;
+        grid-column: 2 span;
+        transition: all 0.5s;
+        text-align: left;
+    }
+
+    h2{
+        font-size: small;
     }
 }
 
