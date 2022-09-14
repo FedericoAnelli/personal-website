@@ -1,0 +1,30 @@
+.educationBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 100%;
+    margin: 5%;
+    width: 100%;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+}
+
+.usalLogo{
+    width: 50%;
+    height: auto;
+    border: black 3px solid;
+    border-radius: 50%;
+}
+
+.textSection{
+    text-align: left;
+}
